@@ -13,7 +13,7 @@ TMB:::install.contrib("https://github.com/lawlerem/adcomp_sqrtm/archive/master.z
 After that you can use it in a TMB model by adding the following two lines to your C++ file:
 ```C++
 #include <TMB.hpp>
-#include <adcomp_sqrtm/sqrtm.hpp>
+#include <adcomp_sqrtm-main/sqrtm.hpp>
 using contrib::lawlerem::sqrtm;
 ```
 
